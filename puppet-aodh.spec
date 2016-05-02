@@ -11,8 +11,9 @@ Source0:        https://github.com/openstack/puppet-aodh/archive/%{version}.tar.
 BuildArch:      noarch
 
 Requires:       puppet-inifile
-Requires:       puppet-stdlib
 Requires:       puppet-openstacklib
+Requires:       puppet-oslo
+Requires:       puppet-stdlib
 Requires:       puppet >= 2.7.0
 
 %description
