@@ -6,7 +6,7 @@ License:        Apache-2.0
 
 URL:            https://launchpad.net/puppet-aodh
 
-Source0:        https://github.com/openstack/puppet-aodh/archive/%{version}.tar.gz
+Source0:        http://tarballs.openstack.org/%{name}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
