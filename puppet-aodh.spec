@@ -21,7 +21,7 @@ Requires:       puppet >= 2.7.0
 Puppet module for OpenStack Aodh
 
 %prep
-%setup -q -n openstack-aodh-%{version}
+%setup -q -n %{name}-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
@@ -53,5 +53,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/aodh/
 
 * Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> 9.2.0-1
 - Update to 9.2.0
+
 
 
