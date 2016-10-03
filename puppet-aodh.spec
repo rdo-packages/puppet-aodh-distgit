@@ -55,3 +55,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/aodh/
 - Update to 9.2.0
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-aodh/commit/?id=e30970a08d1a3a2cdcd4455e861767faa3c8598b
