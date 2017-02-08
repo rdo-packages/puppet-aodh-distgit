@@ -21,7 +21,7 @@ Requires:       puppet >= 2.7.0
 Puppet module for OpenStack Aodh
 
 %prep
-%setup -q -n openstack-aodh-%{version}
+%setup -q -n openstack-aodh-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
