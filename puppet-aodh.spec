@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-aodh
-Version:        XXX
-Release:        XXX
+Version:        10.3.0
+Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Aodh
 License:        Apache-2.0
 
@@ -45,4 +45,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/aodh/
 
 
 %changelog
+* Wed Feb 08 2017 Haikel Guemar <hguemar@fedoraproject.org> 10.3.0-1
+- Update to 10.3.0
+
 
