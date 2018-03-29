@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-aodh
-Version:        12.3.0
+Version:        12.4.0
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Aodh
 License:        ASL 2.0
@@ -45,6 +45,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/aodh/
 
 
 %changelog
+* Thu Mar 29 2018 RDO <dev@lists.rdoproject.org> 12.4.0-1
+- Update to 12.4.0
+
 * Wed Feb 21 2018 RDO <dev@lists.rdoproject.org> 12.3.0-1
 - Update to 12.3.0
 
