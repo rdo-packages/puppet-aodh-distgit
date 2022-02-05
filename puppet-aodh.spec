@@ -63,3 +63,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/aodh/
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-aodh/commit/2bf346a6dd0de295ae7832fa93de3aa64521d437
