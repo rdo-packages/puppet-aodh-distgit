@@ -1,8 +1,8 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-aodh
-Version:        20.3.0
+Version:        20.3.1
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Aodh
 License:        ASL 2.0
@@ -62,6 +62,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/aodh/
 
 
 %changelog
+* Fri Nov 24 2023 RDO <dev@lists.rdoproject.org> 20.3.1-1
+- Update to 20.3.1
+
 * Tue Apr 05 2022 RDO <dev@lists.rdoproject.org> 20.3.0-1
 - Update to 20.3.0
 
